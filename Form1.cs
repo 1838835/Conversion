@@ -17,9 +17,22 @@ namespace Conversion
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnDecimal_Click(object sender, EventArgs e)
         {
-            //conversion
+            
+        }
+
+        private void btnBinaire_Click(object sender, EventArgs e)
+        {
+            int Valeur = int.Parse(txtValeur.Text);
+
+            if(Valeur < 0 || Valeur > 255)
+            {
+                
+            }
+
+
+
         }
     }
 }
