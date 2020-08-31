@@ -1,6 +1,6 @@
 ﻿namespace Conversion
 {
-    partial class Form1
+    partial class frmConversion
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
@@ -59,6 +59,7 @@
             this.btnHexa.TabIndex = 1;
             this.btnHexa.Text = "Hexadécimal";
             this.btnHexa.UseVisualStyleBackColor = true;
+            this.btnHexa.Click += new System.EventHandler(this.btnHexa_Click);
             // 
             // btnBinaire
             // 
@@ -134,7 +135,7 @@
             this.txtValeur.Size = new System.Drawing.Size(209, 20);
             this.txtValeur.TabIndex = 10;
             // 
-            // Form1
+            // frmConversion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -150,8 +151,8 @@
             this.Controls.Add(this.btnBinaire);
             this.Controls.Add(this.btnHexa);
             this.Controls.Add(this.btnDecimal);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "frmConversion";
+            this.Text = "Conevrsion";
             this.ResumeLayout(false);
             this.PerformLayout();
 
